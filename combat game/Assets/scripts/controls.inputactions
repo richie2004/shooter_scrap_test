@@ -1,0 +1,54 @@
+{
+    "name": "controls",
+    "maps": [
+        {
+            "name": "Shooter",
+            "id": "26484e71-cad3-41d4-9cc0-85f5beca023e",
+            "actions": [
+                {
+                    "name": "move",
+                    "type": "Value",
+                    "id": "d707ae91-6f50-41ac-a754-a440314b31d9",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "shoot",
+                    "type": "Value",
+                    "id": "e8683af9-ee73-49af-bc7a-a0d7cc2c9ff5",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "14c7a1e0-971c-447f-9468-a5cb07177788",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "df5f2aed-3f19-4034-aa34-f36ab92f3189",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
