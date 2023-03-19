@@ -1,0 +1,135 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00030000" />
+12-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:3-52
+12-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:17-49
+13    <uses-feature
+13-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-91
+14        android:name="android.hardware.vulkan.version"
+14-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:17-63
+15        android:required="false" />
+15-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:64-88
+16
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-65
+17-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:20-62
+18
+19    <uses-feature
+19-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-88
+20        android:name="android.hardware.touchscreen"
+20-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:17-60
+21        android:required="false" />
+21-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:61-85
+22    <uses-feature
+22-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-99
+23        android:name="android.hardware.touchscreen.multitouch"
+23-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:17-71
+24        android:required="false" />
+24-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:72-96
+25    <uses-feature
+25-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-108
+26        android:name="android.hardware.touchscreen.multitouch.distinct"
+26-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:17-80
+27        android:required="false" />
+27-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:81-105
+28
+29    <application android:extractNativeLibs="true" >
+29-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-19:17
+29-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+30        <activity
+30-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-13:16
+31            android:name="com.unity3d.player.UnityPlayerActivity"
+31-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+32            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+32-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:180-361
+33            android:hardwareAccelerated="false"
+33-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:396-431
+34            android:launchMode="singleTask"
+34-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:148-179
+35            android:resizeableActivity="true"
+35-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:362-395
+36            android:screenOrientation="fullUser"
+36-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-147
+37            android:theme="@style/UnityThemeSelector" >
+37-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+38            <intent-filter>
+38-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
+39                <action android:name="android.intent.action.MAIN" />
+39-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+39-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+41-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+42            </intent-filter>
+43
+44            <meta-data
+44-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
+45                android:name="unityplayer.UnityActivity"
+45-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
+46                android:value="true" />
+46-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
+47            <meta-data
+47-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-130
+48                android:name="WindowManagerPreference:FreeformWindowSize"
+48-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-75
+49                android:value="@string/FreeformWindowSize_maximize" />
+49-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:76-127
+50            <meta-data
+50-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:7-145
+51                android:name="WindowManagerPreference:FreeformWindowOrientation"
+51-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:18-82
+52                android:value="@string/FreeformWindowOrientation_landscape" />
+52-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:83-142
+53            <meta-data
+53-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:7-78
+54                android:name="android.notch_support"
+54-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:18-54
+55                android:value="true" />
+55-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:55-75
+56        </activity>
+57
+58        <meta-data
+58-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-69
+59            android:name="unity.splash-mode"
+59-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-48
+60            android:value="0" />
+60-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:49-66
+61        <meta-data
+61-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-74
+62            android:name="unity.splash-enable"
+62-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-50
+63            android:value="True" />
+63-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:51-71
+64        <meta-data
+64-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-78
+65            android:name="unity.launch-fullscreen"
+65-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-54
+66            android:value="True" />
+66-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:55-75
+67        <meta-data
+67-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-83
+68            android:name="unity.allow-resizable-window"
+68-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-59
+69            android:value="True" />
+69-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:60-80
+70        <meta-data
+70-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-81
+71            android:name="notch.config"
+71-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-43
+72            android:value="portrait|landscape" />
+72-->E:\richie\shooter_scrap_test\combat game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:44-78
+73    </application>
+74
+75</manifest>
